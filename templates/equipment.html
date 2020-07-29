@@ -1,0 +1,1934 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <meta charset="utf-8">
+    <link href="{{ url_for('static', filename='img/logo.png') }}" rel="SHORTCUT ICON" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>全球军事力量分析网</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/style-starter.css') }}">
+	<link href="http://fonts.googleapis.com/css?family=Poppins:300,400,400i,500,600,700&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="{{ url_for('static', filename='js/echarts.min.js') }}"></script>
+</head>
+<body>
+     <header class="w3l-header-nav">
+		<nav class="navbar navbar-expand-lg navbar-light px-lg-0 py-0 px-3 stroke">
+			<div class="container">
+				<a class="navbar-brand" href="{{ url_for('index') }}"><span style="color: brown;">Military</span>Power</a>
+				<button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
+					data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+					aria-label="Toggle navigation">
+					<span class="fa icon-expand fa-bars"></span>
+					<span class="fa icon-close fa-times"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mx-lg-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="{{ url_for('index') }}">首页</a>
+						</li>
+                        <li class="nav-item">
+							<a class="nav-link" href="{{ url_for('ditu') }}">地图</a>
+						</li>
+                        <li class="nav-item">
+							<a class="nav-link" href="{{ url_for('ciyun') }}">词云</a>
+						</li>
+                        <li class="nav-item">
+							<a class="nav-link" href="{{ url_for('zhuxing')}}">柱形</a>
+						</li>
+                        <li class="nav-item">
+							<a class="nav-link" href="{{ url_for('zhexian') }}">折线</a>
+						</li>
+                        <li class="nav-item active">
+							<a class="nav-link" href="{{ url_for('equipment') }}">装备</a>
+						</li>
+                        <li class="nav-item">
+							<a class="nav-link" href="{{ url_for('hoqin') }}">后勤</a>
+						</li>
+                        <li class="nav-item">
+							<a class="nav-link" href="{{ url_for('people') }}">人力</a>
+						</li>
+                        <li class="nav-item">
+							<a class="nav-link" href="{{ url_for('caizhen') }}">财政</a>
+						</li>
+                        <li class="nav-item">
+							<a class="nav-link" href="{{ url_for('ziyuan') }}">自然资源</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!--//nav-->
+	</header>
+     <hr>
+    <div class="box">
+                <div id="277a26b60f82498998632ef5def15132" class="chart-container" style="width:900px; height:500px;margin-left: 200px;"></div>
+    <script>
+        var chart_277a26b60f82498998632ef5def15132 = echarts.init(
+            document.getElementById('277a26b60f82498998632ef5def15132'), 'white', {renderer: 'canvas'});
+        var option_277a26b60f82498998632ef5def15132 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "radar",
+            "name": "USA",
+            "data": [
+                [
+                    13264,
+                    490,
+                    6289,
+                    66,
+                    5768,
+                    39253
+                ]
+            ],
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "itemStyle": {
+                "normal": {
+                    "color": "blue"
+                }
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0.5,
+                "color": "blue"
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        },
+        {
+            "type": "radar",
+            "name": "RUS",
+            "data": [
+                [
+                    4163,
+                    603,
+                    12950,
+                    62,
+                    1522,
+                    27038
+                ]
+            ],
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "itemStyle": {
+                "normal": {
+                    "color": "red"
+                }
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0.5,
+                "color": "red"
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        },
+        {
+            "type": "radar",
+            "name": "CHN",
+            "data": [
+                [
+                    3210,
+                    777,
+                    3500,
+                    74,
+                    911,
+                    33000
+                ]
+            ],
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "itemStyle": {
+                "normal": {
+                    "color": "yellow"
+                }
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0.5,
+                "color": "yellow"
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        },
+        {
+            "type": "radar",
+            "name": "IND",
+            "data": [
+                [
+                    2123,
+                    285,
+                    4292,
+                    16,
+                    722,
+                    8686
+                ]
+            ],
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "itemStyle": {
+                "normal": {
+                    "color": "purple"
+                }
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0.5,
+                "color": "purple"
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        },
+        {
+            "type": "radar",
+            "name": "SKO",
+            "data": [
+                [
+                    1649,
+                    234,
+                    2614,
+                    22,
+                    803,
+                    14000
+                ]
+            ],
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "itemStyle": {
+                "normal": {
+                    "color": "green"
+                }
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0.5,
+                "color": "green"
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        },
+        {
+            "type": "radar",
+            "name": "JPN",
+            "data": [
+                [
+                    1561,
+                    155,
+                    1004,
+                    20,
+                    637,
+                    3130
+                ]
+            ],
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "itemStyle": {
+                "normal": {
+                    "color": "pink"
+                }
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0.5,
+                "color": "pink"
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        },
+        {
+            "type": "radar",
+            "name": "PAK",
+            "data": [
+                [
+                    1372,
+                    100,
+                    2200,
+                    8,
+                    346,
+                    7330
+                ]
+            ],
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "itemStyle": {
+                "normal": {
+                    "color": "#00ae9d"
+                }
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0.5,
+                "color": "#00ae9d"
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        },
+        {
+            "type": "radar",
+            "name": "FRA",
+            "data": [
+                [
+                    1229,
+                    180,
+                    528,
+                    9,
+                    589,
+                    6028
+                ]
+            ],
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "itemStyle": {
+                "normal": {
+                    "color": "#90d7ec"
+                }
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0.5,
+                "color": "#90d7ec"
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        },
+        {
+            "type": "radar",
+            "name": "TUR",
+            "data": [
+                [
+                    1055,
+                    149,
+                    2622,
+                    12,
+                    497,
+                    8777
+                ]
+            ],
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "itemStyle": {
+                "normal": {
+                    "color": "#6e6b41"
+                }
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0.5,
+                "color": "#6e6b41"
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        },
+        {
+            "type": "radar",
+            "name": "EGY",
+            "data": [
+                [
+                    1054,
+                    316,
+                    4295,
+                    8,
+                    294,
+                    11700
+                ]
+            ],
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "itemStyle": {
+                "normal": {
+                    "color": "#293047"
+                }
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0.5,
+                "color": "#293047"
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        },
+        {
+            "type": "radar",
+            "name": "NKO",
+            "data": [
+                [
+                    949,
+                    984,
+                    6045,
+                    83,
+                    204,
+                    10000
+                ]
+            ],
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "itemStyle": {
+                "normal": {
+                    "color": "#293047"
+                }
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0.5
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        },
+        {
+            "type": "radar",
+            "name": "SAR",
+            "data": [
+                [
+                    879,
+                    55,
+                    1062,
+                    0,
+                    283,
+                    12825
+                ]
+            ],
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "itemStyle": {
+                "normal": {
+                    "color": "#293047"
+                }
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0.5
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        },
+        {
+            "type": "radar",
+            "name": "ITA",
+            "data": [
+                [
+                    860,
+                    249,
+                    200,
+                    8,
+                    439,
+                    6947
+                ]
+            ],
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "itemStyle": {
+                "normal": {
+                    "color": "#293047"
+                }
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0.5
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        },
+        {
+            "type": "radar",
+            "name": "TAI",
+            "data": [
+                [
+                    744,
+                    117,
+                    1180,
+                    4,
+                    210,
+                    2000
+                ]
+            ],
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "itemStyle": {
+                "normal": {
+                    "color": "#293047"
+                }
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0.5
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        },
+        {
+            "type": "radar",
+            "name": "UKD",
+            "data": [
+                [
+                    733,
+                    88,
+                    227,
+                    10,
+                    312,
+                    5000
+                ]
+            ],
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "itemStyle": {
+                "normal": {
+                    "color": "#293047"
+                }
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0.5
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "USA",
+                "RUS",
+                "CHN",
+                "IND",
+                "SKO",
+                "JPN",
+                "PAK",
+                "FRA",
+                "TUR",
+                "EGY",
+                "NKO",
+                "SAR",
+                "ITA",
+                "TAI",
+                "UKD"
+            ],
+            "selected": {
+                "USA": true,
+                "RUS": true,
+                "CHN": true,
+                "IND": true,
+                "SKO": true,
+                "JPN": true,
+                "PAK": true,
+                "FRA": true,
+                "TUR": true,
+                "EGY": true,
+                "NKO": true,
+                "SAR": true,
+                "ITA": true,
+                "TAI": true,
+                "UKD": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "radar": {
+        "indicator": [
+            {
+                "name": "\u98de\u673a\u673a\u961f",
+                "max": 13500
+            },
+            {
+                "name": "\u6d77\u519b\u8230\u961f",
+                "max": 1000
+            },
+            {
+                "name": "\u5766\u514b",
+                "max": 13000
+            },
+            {
+                "name": "\u6f5c\u8247",
+                "max": 100
+            },
+            {
+                "name": "\u76f4\u5347\u673a",
+                "max": 6000
+            },
+            {
+                "name": "\u88c5\u7532\u8f66",
+                "max": 40000
+            }
+        ],
+        "name": {
+            "textStyle": {}
+        },
+        "splitLine": {
+            "show": true,
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            }
+        },
+        "splitArea": {
+            "show": true,
+            "areaStyle": {
+                "opacity": 0
+            }
+        },
+        "axisLine": {
+            "show": true,
+            "onZero": true,
+            "onZeroAxisIndex": 0
+        }
+    },
+    "title": [
+        {
+            "text": "\u88c5\u5907\u96f7\u8fbe\u56fe",
+            "top": "20",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ]
+};
+        chart_277a26b60f82498998632ef5def15132.setOption(option_277a26b60f82498998632ef5def15132);
+    </script>
+<br/>                <div id="f6370f952c044455ba86149d90477b92" class="chart-container" style="width:900px; height:500px;margin-left: 200px;"></div>
+    <script>
+        var chart_f6370f952c044455ba86149d90477b92 = echarts.init(
+            document.getElementById('f6370f952c044455ba86149d90477b92'), 'white', {renderer: 'canvas'});
+        var option_f6370f952c044455ba86149d90477b92 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "pie",
+            "clockwise": true,
+            "data": [
+                {
+                    "name": "NKO",
+                    "value": "984"
+                },
+                {
+                    "name": "CHN",
+                    "value": "777"
+                },
+                {
+                    "name": "RUS",
+                    "value": "603"
+                },
+                {
+                    "name": "USA",
+                    "value": "490"
+                },
+                {
+                    "name": "COL",
+                    "value": "453"
+                },
+                {
+                    "name": "IRN",
+                    "value": "398"
+                },
+                {
+                    "name": "EGY",
+                    "value": "316"
+                },
+                {
+                    "name": "THA",
+                    "value": "292"
+                },
+                {
+                    "name": "IND",
+                    "value": "285"
+                },
+                {
+                    "name": "INO",
+                    "value": "282"
+                },
+                {
+                    "name": "ITA",
+                    "value": "249"
+                },
+                {
+                    "name": "FIN",
+                    "value": "246"
+                },
+                {
+                    "name": "SKO",
+                    "value": "234"
+                },
+                {
+                    "name": "ALG",
+                    "value": "201"
+                },
+                {
+                    "name": "MEX",
+                    "value": "189"
+                }
+            ],
+            "radius": [
+                50,
+                100
+            ],
+            "center": [
+                "50%",
+                "50%"
+            ],
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8,
+                "formatter": "{b}:{d}"
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "NKO",
+                "CHN",
+                "RUS",
+                "USA",
+                "COL",
+                "IRN",
+                "EGY",
+                "THA",
+                "IND",
+                "INO",
+                "ITA",
+                "FIN",
+                "SKO",
+                "ALG",
+                "MEX"
+            ],
+            "selected": {},
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "title": [
+        {
+            "text": "\u6d77\u519b\u8230\u961f\u997c\u72b6\u56fe",
+            "top": "100",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ]
+};
+        chart_f6370f952c044455ba86149d90477b92.setOption(option_f6370f952c044455ba86149d90477b92);
+    </script>
+<br/>                <div id="4d807a5182034af1aae7dd4ccf8748c4" class="chart-container" style="width:900px; height:500px;margin-left:200px;"></div>
+    <script>
+        var chart_4d807a5182034af1aae7dd4ccf8748c4 = echarts.init(
+            document.getElementById('4d807a5182034af1aae7dd4ccf8748c4'), 'white', {renderer: 'canvas'});
+        var option_4d807a5182034af1aae7dd4ccf8748c4 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "pie",
+            "clockwise": true,
+            "data": [
+                {
+                    "name": "USA",
+                    "value": "13264"
+                },
+                {
+                    "name": "RUS",
+                    "value": "4163"
+                },
+                {
+                    "name": "CHN",
+                    "value": "3210"
+                },
+                {
+                    "name": "IND",
+                    "value": "2123"
+                },
+                {
+                    "name": "SKO",
+                    "value": "1649"
+                },
+                {
+                    "name": "JPN",
+                    "value": "1561"
+                },
+                {
+                    "name": "PAK",
+                    "value": "1372"
+                },
+                {
+                    "name": "FRA",
+                    "value": "1229"
+                },
+                {
+                    "name": "TUR",
+                    "value": "1055"
+                },
+                {
+                    "name": "EGY",
+                    "value": "1054"
+                },
+                {
+                    "name": "NKO",
+                    "value": "949"
+                },
+                {
+                    "name": "SAR",
+                    "value": "879"
+                },
+                {
+                    "name": "ITA",
+                    "value": "860"
+                },
+                {
+                    "name": "TAI",
+                    "value": "744"
+                },
+                {
+                    "name": "UKD",
+                    "value": "733"
+                }
+            ],
+            "radius": [
+                50,
+                100
+            ],
+            "center": [
+                "50%",
+                "50%"
+            ],
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8,
+                "formatter": "{b}:{d}"
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "USA",
+                "RUS",
+                "CHN",
+                "IND",
+                "SKO",
+                "JPN",
+                "PAK",
+                "FRA",
+                "TUR",
+                "EGY",
+                "NKO",
+                "SAR",
+                "ITA",
+                "TAI",
+                "UKD"
+            ],
+            "selected": {},
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "title": [
+        {
+            "text": "\u98de\u673a\u673a\u961f\u997c\u72b6\u56fe",
+            "top": "100",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ]
+};
+        chart_4d807a5182034af1aae7dd4ccf8748c4.setOption(option_4d807a5182034af1aae7dd4ccf8748c4);
+    </script>
+<br/>                <div id="9364216dc540408e9f7cb2d0d41bafb9" class="chart-container" style="width:900px; height:500px;margin-left:200px;"></div>
+    <script>
+        var chart_9364216dc540408e9f7cb2d0d41bafb9 = echarts.init(
+            document.getElementById('9364216dc540408e9f7cb2d0d41bafb9'), 'white', {renderer: 'canvas'});
+        var option_9364216dc540408e9f7cb2d0d41bafb9 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "pie",
+            "clockwise": true,
+            "data": [
+                {
+                    "name": "NKO",
+                    "value": "83"
+                },
+                {
+                    "name": "CHN",
+                    "value": "74"
+                },
+                {
+                    "name": "USA",
+                    "value": "66"
+                },
+                {
+                    "name": "RUS",
+                    "value": "62"
+                },
+                {
+                    "name": "IRN",
+                    "value": "34"
+                },
+                {
+                    "name": "SKO",
+                    "value": "22"
+                },
+                {
+                    "name": "JPN",
+                    "value": "20"
+                },
+                {
+                    "name": "IND",
+                    "value": "16"
+                },
+                {
+                    "name": "TUR",
+                    "value": "12"
+                },
+                {
+                    "name": "COL",
+                    "value": "11"
+                },
+                {
+                    "name": "GRE",
+                    "value": "11"
+                },
+                {
+                    "name": "UKD",
+                    "value": "10"
+                },
+                {
+                    "name": "FRA",
+                    "value": "9"
+                },
+                {
+                    "name": "PAK",
+                    "value": "8"
+                },
+                {
+                    "name": "ITA",
+                    "value": "8"
+                }
+            ],
+            "radius": [
+                50,
+                100
+            ],
+            "center": [
+                "50%",
+                "50%"
+            ],
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8,
+                "formatter": "{b}:{d}"
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "NKO",
+                "CHN",
+                "USA",
+                "RUS",
+                "IRN",
+                "SKO",
+                "JPN",
+                "IND",
+                "TUR",
+                "COL",
+                "GRE",
+                "UKD",
+                "FRA",
+                "PAK",
+                "ITA"
+            ],
+            "selected": {},
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "title": [
+        {
+            "text": "\u6f5c\u8247\u997c\u72b6\u56fe",
+            "top": "100",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ]
+};
+        chart_9364216dc540408e9f7cb2d0d41bafb9.setOption(option_9364216dc540408e9f7cb2d0d41bafb9);
+    </script>
+<br/>                <div id="625837c7e17a4e8e90d67111b3006962" class="chart-container" style="width:900px; height:500px;margin-left: 200px;"></div>
+    <script>
+        var chart_625837c7e17a4e8e90d67111b3006962 = echarts.init(
+            document.getElementById('625837c7e17a4e8e90d67111b3006962'), 'white', {renderer: 'canvas'});
+        var option_625837c7e17a4e8e90d67111b3006962 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "pie",
+            "clockwise": true,
+            "data": [
+                {
+                    "name": "RUS",
+                    "value": "12950"
+                },
+                {
+                    "name": "USA",
+                    "value": "6289"
+                },
+                {
+                    "name": "NKO",
+                    "value": "6045"
+                },
+                {
+                    "name": "EGY",
+                    "value": "4295"
+                },
+                {
+                    "name": "IND",
+                    "value": "4292"
+                },
+                {
+                    "name": "SYR",
+                    "value": "4135"
+                },
+                {
+                    "name": "CHN",
+                    "value": "3500"
+                },
+                {
+                    "name": "ISR",
+                    "value": "2760"
+                },
+                {
+                    "name": "TUR",
+                    "value": "2622"
+                },
+                {
+                    "name": "VTN",
+                    "value": "2615"
+                },
+                {
+                    "name": "SKO",
+                    "value": "2614"
+                },
+                {
+                    "name": "PAK",
+                    "value": "2200"
+                },
+                {
+                    "name": "IRN",
+                    "value": "2056"
+                },
+                {
+                    "name": "UKR",
+                    "value": "2026"
+                },
+                {
+                    "name": "MOR",
+                    "value": "1443"
+                }
+            ],
+            "radius": [
+                50,
+                100
+            ],
+            "center": [
+                "50%",
+                "50%"
+            ],
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8,
+                "formatter": "{b}:{d}"
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "RUS",
+                "USA",
+                "NKO",
+                "EGY",
+                "IND",
+                "SYR",
+                "CHN",
+                "ISR",
+                "TUR",
+                "VTN",
+                "SKO",
+                "PAK",
+                "IRN",
+                "UKR",
+                "MOR"
+            ],
+            "selected": {},
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "title": [
+        {
+            "text": "\u5766\u514b\u997c\u72b6\u56fe",
+            "top": "100",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ]
+};
+        chart_625837c7e17a4e8e90d67111b3006962.setOption(option_625837c7e17a4e8e90d67111b3006962);
+    </script>
+<br/>                <div id="9bdaac0def31476c8ed06ab024dc38b9" class="chart-container" style="width:900px; height:500px;margin-left: 200px;"></div>
+    <script>
+        var chart_9bdaac0def31476c8ed06ab024dc38b9 = echarts.init(
+            document.getElementById('9bdaac0def31476c8ed06ab024dc38b9'), 'white', {renderer: 'canvas'});
+        var option_9bdaac0def31476c8ed06ab024dc38b9 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "pie",
+            "clockwise": true,
+            "data": [
+                {
+                    "name": "USA",
+                    "value": "5768"
+                },
+                {
+                    "name": "RUS",
+                    "value": "1522"
+                },
+                {
+                    "name": "CHN",
+                    "value": "911"
+                },
+                {
+                    "name": "SKO",
+                    "value": "803"
+                },
+                {
+                    "name": "IND",
+                    "value": "722"
+                },
+                {
+                    "name": "JPN",
+                    "value": "637"
+                },
+                {
+                    "name": "FRA",
+                    "value": "589"
+                },
+                {
+                    "name": "TUR",
+                    "value": "497"
+                },
+                {
+                    "name": "ITA",
+                    "value": "439"
+                },
+                {
+                    "name": "GER",
+                    "value": "386"
+                },
+                {
+                    "name": "PAK",
+                    "value": "346"
+                },
+                {
+                    "name": "UKD",
+                    "value": "312"
+                },
+                {
+                    "name": "THA",
+                    "value": "307"
+                },
+                {
+                    "name": "EGY",
+                    "value": "294"
+                },
+                {
+                    "name": "SAR",
+                    "value": "283"
+                }
+            ],
+            "radius": [
+                50,
+                100
+            ],
+            "center": [
+                "50%",
+                "50%"
+            ],
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8,
+                "formatter": "{b}:{d}"
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "USA",
+                "RUS",
+                "CHN",
+                "SKO",
+                "IND",
+                "JPN",
+                "FRA",
+                "TUR",
+                "ITA",
+                "GER",
+                "PAK",
+                "UKD",
+                "THA",
+                "EGY",
+                "SAR"
+            ],
+            "selected": {},
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "title": [
+        {
+            "text": "\u76f4\u5347\u673a\u997c\u72b6\u56fe",
+            "top": "100",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ]
+};
+        chart_9bdaac0def31476c8ed06ab024dc38b9.setOption(option_9bdaac0def31476c8ed06ab024dc38b9);
+    </script>
+<br/>                <div id="828a0c930f4342d59e8a16583903aac3" class="chart-container" style="width:900px; height:500px;margin-left: 200px;"></div>
+    <script>
+        var chart_828a0c930f4342d59e8a16583903aac3 = echarts.init(
+            document.getElementById('828a0c930f4342d59e8a16583903aac3'), 'white', {renderer: 'canvas'});
+        var option_828a0c930f4342d59e8a16583903aac3 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "pie",
+            "clockwise": true,
+            "data": [
+                {
+                    "name": "USA",
+                    "value": "39253"
+                },
+                {
+                    "name": "CHN",
+                    "value": "33000"
+                },
+                {
+                    "name": "RUS",
+                    "value": "27038"
+                },
+                {
+                    "name": "SKO",
+                    "value": "14000"
+                },
+                {
+                    "name": "SAR",
+                    "value": "12825"
+                },
+                {
+                    "name": "EGY",
+                    "value": "11700"
+                },
+                {
+                    "name": "ISR",
+                    "value": "10275"
+                },
+                {
+                    "name": "UKR",
+                    "value": "10135"
+                },
+                {
+                    "name": "NKO",
+                    "value": "10000"
+                },
+                {
+                    "name": "TUR",
+                    "value": "8777"
+                },
+                {
+                    "name": "UAE",
+                    "value": "8691"
+                },
+                {
+                    "name": "IND",
+                    "value": "8686"
+                },
+                {
+                    "name": "ALG",
+                    "value": "7361"
+                },
+                {
+                    "name": "PAK",
+                    "value": "7330"
+                },
+                {
+                    "name": "ITA",
+                    "value": "6947"
+                }
+            ],
+            "radius": [
+                50,
+                100
+            ],
+            "center": [
+                "50%",
+                "50%"
+            ],
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8,
+                "formatter": "{b}:{d}"
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "USA",
+                "CHN",
+                "RUS",
+                "SKO",
+                "SAR",
+                "EGY",
+                "ISR",
+                "UKR",
+                "NKO",
+                "TUR",
+                "UAE",
+                "IND",
+                "ALG",
+                "PAK",
+                "ITA"
+            ],
+            "selected": {},
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "title": [
+        {
+            "text": "\u88c5\u7532\u8f66\u997c\u72b6\u56fe",
+            "top": "100",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ]
+};
+        chart_828a0c930f4342d59e8a16583903aac3.setOption(option_828a0c930f4342d59e8a16583903aac3);
+    </script>
+<br/>    </div>
+    <script>
+    </script>
+</body>
+</html>

@@ -1,0 +1,139 @@
+short_name,long_name,power
+USA,United States,5768
+RUS,Russia,1522
+CHN,China,911
+SKO,South Korea,803
+IND,India,722
+JPN,Japan,637
+FRA,France,589
+TUR,Turkey,497
+ITA,Italy,439
+GER,Germany,386
+PAK,Pakistan,346
+UKD,United Kingdom,312
+THA,Thailand,307
+EGY,Egypt,294
+SAR,Saudi Arabia,283
+ALG,Algeria,257
+BRA,Brazil,242
+GRE,Greece,231
+UAE,United Arab Emirates,229
+COL,Colombia,224
+TAI,Taiwan,210
+NKO,North Korea,204
+MEX,Mexico,202
+AFG,Afghanistan,187
+IRQ,Iraq,186
+INO,Indonesia,177
+POL,Poland,176
+SYR,Syria,165
+SPA,Spain,162
+ISR,Israel,146
+JOR,Jordan,146
+CAN,Canada,145
+VTN,Vietnam,138
+AUS,Australia,133
+FIN,Finland,127
+ANG,Angola,126
+UKR,Ukraine,121
+ARG,Argentina,100
+IRN,Iran,100
+PER,Peru,99
+PHI,Philippines,97
+CHI,Chile,92
+TUN,Tunisia,92
+SAF,South Africa,91
+AZR,Azerbaijan,88
+VEN,Venezuela,86
+MYA,Myanmar,86
+UZB,Uzbekistan,79
+KEN,Kenya,79
+SIN,Singapore,77
+NET,Netherlands,75
+SUD,Sudan,73
+KAZ,Kazakhstan,71
+BAN,Bangladesh,67
+MLY,Malaysia,65
+BAH,Bahrain,65
+MOR,Morocco,64
+BLR,Belarus,63
+ROM,Romania,62
+AST,Austria,62
+YEM,Yemen,61
+LEB,Lebanon,55
+SRL,Sri Lanka,54
+SWE,Sweden,53
+ECU,Ecuador,50
+NOR,Norway,47
+CRO,Croatia,47
+QTR,Qatar,46
+CZC,Czechia,44
+NGA,Nigeria,44
+SER,Serbia,44
+SWI,Switzerland,42
+OMA,Oman,42
+KUW,Kuwait,40
+GEO,Georgia,38
+BOL,Bolivia,38
+ARM,Armenia,37
+DEN,Denmark,35
+DRC,Democratic Republic of the Congo,34
+ETH,Ethiopia,33
+ESL,El Salvador,31
+BEL,Belgium,29
+ZIM,Zimbabwe,28
+DOM,Dominican Republic,28
+ZAM,Zambia,27
+LAO,Laos,27
+UGA,Uganda,26
+LBY,Libya,26
+TKM,Turkmenistan,25
+BUL,Bulgaria,25
+HUN,Hungary,24
+POR,Portugal,23
+PAN,Panama,23
+NWZ,New Zealand,22
+SLK,Slovakia,21
+TAJ,Tajikistan,20
+ALB,Albania,19
+BOS,Bosnia and Herzegovina,19
+CHD,Chad,17
+SSU,South Sudan,17
+CMB,Cambodia,17
+BOT,Botswana,16
+SLV,Slovenia,16
+GUA,Guatemala,15
+GAB,Gabon,15
+CAM,Cameroon,15
+MAC,North Macedonia,14
+NIC,Nicaragua,14
+CUB,Cuba,14
+GHA,Ghana,13
+URU,Uruguay,13
+NEP,Nepal,13
+HON,Honduras,12
+PAR,Paraguay,11
+MTN,Montenegro,9
+ROC,Republic of the Congo,8
+IRE,Ireland,8
+BKF,Burkina Faso,8
+MAL,Mali,8
+NAM,Namibia,7
+NGR,Niger,7
+MAD,Madagascar,6
+MOZ,Mozambique,6
+MON,Mongolia,6
+TAN,Tanzania,6
+KYR,Kyrgyzstan,5
+LAT,Latvia,5
+LIT,Lithuania,5
+SIE,Sierra Leone,5
+IVC,Ivory Coast,4
+EST,Estonia,4
+MAU,Mauritania,4
+SUR,Suriname,3
+BUT,Bhutan,2
+MOL,Moldova,2
+CAR,Central African Republic,1
+LIB,Liberia,0
+SOM,Somalia,0

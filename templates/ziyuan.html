@@ -1,0 +1,1189 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <link href="{{ url_for('static', filename='img/logo.png') }}" rel="SHORTCUT ICON" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>全球军事力量分析网</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/style-starter.css') }}">
+	<link href="http://fonts.googleapis.com/css?family=Poppins:300,400,400i,500,600,700&display=swap" rel="stylesheet">
+	<script src="{{ url_for('static', filename='js/ziyuan.js') }}"></script>
+</head>
+
+<body>
+<header class="w3l-header-nav">
+		<nav class="navbar navbar-expand-lg navbar-light px-lg-0 py-0 px-3 stroke">
+			<div class="container">
+				<a class="navbar-brand" href="{{ url_for('index') }}"><span style="color: brown;">Military</span>Power</a>
+				<button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
+					data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+					aria-label="Toggle navigation">
+					<span class="fa icon-expand fa-bars"></span>
+					<span class="fa icon-close fa-times"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mx-lg-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="{{ url_for('index') }}">首页</a>
+						</li>
+                        <li class="nav-item">
+							<a class="nav-link" href="{{ url_for('ditu') }}">地图</a>
+						</li>
+                        <li class="nav-item">
+							<a class="nav-link" href="{{ url_for('ciyun') }}">词云</a>
+						</li>
+                        <li class="nav-item">
+							<a class="nav-link" href="{{ url_for('zhuxing')}}">柱形</a>
+						</li>
+                        <li class="nav-item">
+							<a class="nav-link" href="{{ url_for('zhexian') }}">折线</a>
+						</li>
+                        <li class="nav-item">
+							<a class="nav-link" href="{{ url_for('equipment') }}">装备</a>
+						</li>
+                        <li class="nav-item">
+							<a class="nav-link" href="{{ url_for('hoqin') }}">后勤</a>
+						</li>
+                        <li class="nav-item">
+							<a class="nav-link" href="{{ url_for('people') }}">人力</a>
+						</li>
+                        <li class="nav-item">
+							<a class="nav-link" href="{{ url_for('caizhen') }}">财政</a>
+						</li>
+                        <li class="nav-item active">
+							<a class="nav-link" href="{{ url_for('ziyuan') }}">自然资源</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!--//nav-->
+	</header>
+<hr>
+<div id="5547bd19352c4860bab528b88d9c4490" style="width:1000px;height:600px;margin-left:200px;"></div>
+<script type="text/javascript">
+    var myChart_5547bd19352c4860bab528b88d9c4490 = echarts.init(document.getElementById('5547bd19352c4860bab528b88d9c4490'));
+    var option_5547bd19352c4860bab528b88d9c4490 = {
+    "title": [
+        {
+            "text": "\u77f3\u6cb9\u8d44\u6e90\u6298\u7ebf\u56fe(/\u5343)",
+            "subtext": "",
+            "left": "auto",
+            "top": "auto",
+            "textStyle": {
+                "color": "#000",
+                "fontSize": 18
+            },
+            "subtextStyle": {
+                "color": "#aaa",
+                "fontSize": 12
+            }
+        }
+    ],
+    "toolbox": {
+        "show": true,
+        "orient": "vertical",
+        "left": "right",
+        "top": "center",
+        "feature": {
+            "saveAsImage": {
+                "show": true
+            }
+        }
+    },
+    "_index_flag": 865244,
+    "tooltip": {},
+    "series": [
+        {
+            "type": "line",
+            "name": "\u77f3\u6cb9\u751f\u4ea7",
+            "symbol": "emptyCircle",
+            "smooth": false,
+            "step": false,
+            "stack": "",
+            "showSymbol": true,
+            "data": [
+                10580.0,
+                10130.0,
+                9352.0,
+                4469.0,
+                4454.0,
+                3977.0,
+                3838.0,
+                3174.0,
+                2753.0,
+                2622.0,
+                2007.0,
+                1981.0,
+                1946.0,
+                1777.0,
+                1666.0,
+                1618.0,
+                1500.0,
+                1306.0,
+                970.4,
+                910.5,
+                897.1,
+                853.6,
+                801.7,
+                789.3,
+                733.9,
+                647.9,
+                589.4,
+                531.3,
+                479.4,
+                271.4,
+                263.0,
+                245.0,
+                244.2,
+                239.7,
+                230.88,
+                198.8,
+                151.0,
+                150.2,
+                137.1,
+                128.0,
+                102.3,
+                89.72,
+                77.53,
+                75.72,
+                73.74,
+                59.33,
+                54.0,
+                50.0,
+                49.17,
+                46.07,
+                45.0,
+                43.52,
+                43.41,
+                32.0,
+                31.48,
+                29.65,
+                20.07,
+                20.0,
+                19.16,
+                18.74,
+                18.17,
+                17.0,
+                16.0,
+                15.17,
+                15.0,
+                14.26,
+                14.0,
+                14.0,
+                14.0,
+                12.26,
+                12.0,
+                11.0,
+                9.666,
+                4.0,
+                3.841,
+                3.666,
+                3.244,
+                2.753,
+                2.252,
+                2.0,
+                2.0,
+                2.0,
+                1.0,
+                1.0,
+                0.4,
+                0.39,
+                0.2,
+                0.196,
+                0.18,
+                0.16,
+                0.022,
+                0.005,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "label": {
+                "normal": {
+                    "show": false,
+                    "position": "top",
+                    "textStyle": {
+                        "color": "#000",
+                        "fontSize": 12
+                    },
+                    "formatter": null
+                },
+                "emphasis": {
+                    "show": true
+                }
+            },
+            "lineStyle": {
+                "normal": {
+                    "width": 1,
+                    "opacity": 0.2,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            },
+            "areaStyle": {
+                "normal": {
+                    "opacity": 0.4,
+                    "color": null
+                }
+            },
+            "markPoint": {
+                "data": [
+                    {
+                        "type": "average",
+                        "name": "\u5e73\u5747\u5024",
+                        "symbol": "pin",
+                        "symbolSize": 50,
+                        "label": {
+                            "normal": {
+                                "textStyle": {
+                                    "color": "#fff"
+                                }
+                            }
+                        }
+                    }
+                ]
+            },
+            "markLine": {
+                "data": []
+            },
+            "indexflag": 865244
+        },
+        {
+            "type": "line",
+            "name": "\u77f3\u6cb9\u6d88\u8017",
+            "symbol": "emptyCircle",
+            "smooth": false,
+            "step": false,
+            "stack": "",
+            "showSymbol": true,
+            "data": [
+                3225.0,
+                4000.0,
+                20000.0,
+                2000.0,
+                825.0,
+                2500.0,
+                13500.0,
+                575.0,
+                345.0,
+                3020.0,
+                575.0,
+                2000.0,
+                275.0,
+                245.0,
+                82.3,
+                260.0,
+                190.0,
+                325.0,
+                100.0,
+                1600.0,
+                315.0,
+                300.0,
+                1630.0,
+                180.0,
+                5000.0,
+                835.0,
+                832.0,
+                282.0,
+                685.0,
+                525.0,
+                1005.0,
+                845.0,
+                185.0,
+                1345.0,
+                150.0,
+                16.5,
+                65.0,
+                60.0,
+                162.0,
+                100.0,
+                96.8,
+                575.0,
+                1300.0,
+                32.5,
+                240.0,
+                60.0,
+                25.6,
+                152.0,
+                90.5,
+                142.0,
+                55.0,
+                210.0,
+                2500.0,
+                190.0,
+                150.0,
+                325.0,
+                585.0,
+                25.0,
+                10.5,
+                75.0,
+                840.0,
+                15.1,
+                42.5,
+                1600.0,
+                320.0,
+                215.0,
+                82.0,
+                145.0,
+                260.0,
+                145.0,
+                42.6,
+                6.5,
+                85.0,
+                18.5,
+                4000.0,
+                112.0,
+                325.0,
+                350.0,
+                1226.0,
+                605.0,
+                72.4,
+                200.0,
+                17.2,
+                115.0,
+                18.5,
+                250.0,
+                82.0,
+                1032.0,
+                20.5,
+                206.0,
+                110.0,
+                55.0,
+                2.0,
+                55.0,
+                25.0,
+                47.5,
+                265.0,
+                260.0,
+                15.5,
+                125.0
+            ],
+            "label": {
+                "normal": {
+                    "show": false,
+                    "position": "top",
+                    "textStyle": {
+                        "color": "#000",
+                        "fontSize": 12
+                    },
+                    "formatter": null
+                },
+                "emphasis": {
+                    "show": true
+                }
+            },
+            "lineStyle": {
+                "normal": {
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            },
+            "areaStyle": {
+                "normal": {
+                    "opacity": 0.5,
+                    "color": "#ca8622"
+                }
+            },
+            "markPoint": {
+                "data": [
+                    {
+                        "type": "average",
+                        "name": "\u5e73\u5747\u5024",
+                        "symbol": "pin",
+                        "symbolSize": 50,
+                        "label": {
+                            "normal": {
+                                "textStyle": {
+                                    "color": "#fff"
+                                }
+                            }
+                        }
+                    }
+                ]
+            },
+            "markLine": {
+                "data": []
+            },
+            "indexflag": 865244
+        },
+        {
+            "type": "line",
+            "name": "\u77f3\u6cb9\u50a8\u5907",
+            "symbol": "emptyCircle",
+            "smooth": false,
+            "step": false,
+            "stack": "",
+            "showSymbol": true,
+            "data": [
+                8000.0,
+                26650.0,
+                3652.0,
+                15840.0,
+                14250.0,
+                16970.0,
+                2562.0,
+                9780.0,
+                10150.0,
+                1300.0,
+                30090.0,
+                764.0,
+                3706.0,
+                3000.0,
+                827.3,
+                661.1,
+                2524.0,
+                1220.0,
+                537.3,
+                256.4,
+                4836.0,
+                200.2,
+                323.0,
+                700.0,
+                462.1,
+                360.0,
+                440.0,
+                827.3,
+                218.5,
+                440.0,
+                182.1,
+                38.85,
+                160.0,
+                39.64,
+                60.0,
+                200.0,
+                66.0,
+                375.0,
+                49.06,
+                150.0,
+                500.0,
+                35.06,
+                55.67,
+                20.0,
+                60.0,
+                21.15,
+                10.0,
+                12.4,
+                42.5,
+                59.4,
+                12.46,
+                47.3,
+                14.54,
+                19.8,
+                5.69,
+                39.5,
+                13.78,
+                0.0,
+                18.0,
+                7.75,
+                11.32,
+                8.398,
+                16.83,
+                7.235,
+                13.85,
+                4.3,
+                7.1,
+                2.51,
+                250.0,
+                300.0,
+                13.9,
+                15.0,
+                8.307,
+                2.0,
+                4.412,
+                2.8,
+                15.0,
+                1.0,
+                15.0,
+                1.5,
+                1.2,
+                1.5,
+                4.0,
+                1.5,
+                3.5,
+                1.273,
+                0.9,
+                0.238,
+                1.2,
+                0.0684,
+                0.1,
+                0.0,
+                0.0,
+                0.0428,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "label": {
+                "normal": {
+                    "show": false,
+                    "position": "top",
+                    "textStyle": {
+                        "color": "#000",
+                        "fontSize": 12
+                    },
+                    "formatter": null
+                },
+                "emphasis": {
+                    "show": true
+                }
+            },
+            "lineStyle": {
+                "normal": {
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            },
+            "areaStyle": {
+                "normal": {
+                    "opacity": 0.6,
+                    "color": "#2a5caa"
+                }
+            },
+            "markPoint": {
+                "data": [
+                    {
+                        "type": "average",
+                        "name": "\u5e73\u5747\u5024",
+                        "symbol": "pin",
+                        "symbolSize": 50,
+                        "label": {
+                            "normal": {
+                                "textStyle": {
+                                    "color": "#fff"
+                                }
+                            }
+                        }
+                    }
+                ]
+            },
+            "markLine": {
+                "data": []
+            },
+            "indexflag": 865244
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u77f3\u6cb9\u751f\u4ea7",
+                "\u77f3\u6cb9\u6d88\u8017",
+                "\u77f3\u6cb9\u50a8\u5907"
+            ],
+            "selectedMode": "multiple",
+            "show": true,
+            "left": "center",
+            "top": "top",
+            "orient": "horizontal"
+        }
+    ],
+    "backgroundColor": "#fff",
+    "xAxis": [
+        {
+            "name": "",
+            "nameLocation": "middle",
+            "nameGap": 25,
+            "nameTextStyle": {
+                "fontSize": 14
+            },
+            "axisLabel": {
+                "interval": "auto",
+                "rotate": 0
+            },
+            "min": null,
+            "max": null,
+            "data": [
+                "RUS",
+                "SAR",
+                "USA",
+                "IRN",
+                "IRQ",
+                "CAN",
+                "CHN",
+                "UAE",
+                "KUW",
+                "BRA",
+                "VEN",
+                "MEX",
+                "NGA",
+                "KAZ",
+                "ANG",
+                "NOR",
+                "QTR",
+                "ALG",
+                "OMA",
+                "UKD",
+                "LBY",
+                "COL",
+                "INO",
+                "AZR",
+                "IND",
+                "MLY",
+                "EGY",
+                "ECU",
+                "ARG",
+                "VTN",
+                "AUS",
+                "TUR",
+                "ROC",
+                "THA",
+                "TKM",
+                "GAB",
+                "GHA",
+                "SSU",
+                "DEN",
+                "CHD",
+                "SUD",
+                "PAK",
+                "ITA",
+                "CAM",
+                "ROM",
+                "BOL",
+                "IVC",
+                "CUB",
+                "TUN",
+                "UZB",
+                "BAH",
+                "PER",
+                "GER",
+                "BLR",
+                "NWZ",
+                "UKR",
+                "POL",
+                "MON",
+                "DRC",
+                "SER",
+                "NET",
+                "SUR",
+                "ALB",
+                "FRA",
+                "PHI",
+                "AST",
+                "CRO",
+                "HUN",
+                "SYR",
+                "YEM",
+                "MYA",
+                "NGR",
+                "GUA",
+                "MAU",
+                "JPN",
+                "BAN",
+                "CHI",
+                "GRE",
+                "SPA",
+                "SAF",
+                "LIT",
+                "CZC",
+                "KYR",
+                "BUL",
+                "GEO",
+                "ISR",
+                "SLK",
+                "TAI",
+                "TAJ",
+                "MOR",
+                "JOR",
+                "SLV",
+                "BUT",
+                "ETH",
+                "NAM",
+                "ARM",
+                "POR",
+                "SWI",
+                "NKO",
+                "DOM"
+            ],
+            "type": "category"
+        }
+    ],
+    "yAxis": [
+        {
+            "name": "",
+            "nameLocation": "middle",
+            "nameGap": 25,
+            "nameTextStyle": {
+                "fontSize": 14
+            },
+            "axisLabel": {
+                "formatter": "{value} ",
+                "rotate": 0
+            },
+            "min": null,
+            "max": null,
+            "type": "value"
+        }
+    ],
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597",
+        "#f6f5ec"
+    ],
+    "dataZoom": [
+        {
+            "show": true,
+            "type": "slider",
+            "start": 50,
+            "end": 100,
+            "orient": "horizontal"
+        }
+    ]
+};
+    myChart_5547bd19352c4860bab528b88d9c4490.setOption(option_5547bd19352c4860bab528b88d9c4490);
+</script>
+<div id="8673cf1844654794805240d9a893b004" style="width:1000px;height:600px;margin-left:200px;margin-top:80px;"></div>
+<script type="text/javascript">
+    var myChart_8673cf1844654794805240d9a893b004 = echarts.init(document.getElementById('8673cf1844654794805240d9a893b004'));
+    var option_8673cf1844654794805240d9a893b004 = {
+    "title": [
+        {
+            "text": "\u77f3\u6cb9\u8d44\u6e90\u67f1\u72b6\u56fe",
+            "subtext": "",
+            "left": "auto",
+            "top": "auto",
+            "textStyle": {
+                "color": "#000",
+                "fontSize": 18
+            },
+            "subtextStyle": {
+                "color": "#aaa",
+                "fontSize": 12
+            }
+        }
+    ],
+    "toolbox": {
+        "show": true,
+        "orient": "vertical",
+        "left": "right",
+        "top": "center",
+        "feature": {
+            "saveAsImage": {
+                "show": true
+            }
+        }
+    },
+    "_index_flag": 328271,
+    "tooltip": {},
+    "series": [
+        {
+            "type": "bar",
+            "name": "\u77f3\u6cb9\u751f\u4ea7",
+            "data": [
+                10580.0,
+                10130.0,
+                9352.0,
+                4469.0,
+                4454.0,
+                3977.0,
+                3838.0,
+                3174.0,
+                2753.0,
+                2622.0,
+                2007.0,
+                1981.0,
+                1946.0,
+                1777.0,
+                1666.0,
+                1618.0,
+                1500.0,
+                1306.0,
+                970.4,
+                910.5,
+                897.1,
+                853.6,
+                801.7,
+                789.3,
+                733.9,
+                647.9,
+                589.4,
+                531.3,
+                479.4,
+                271.4
+            ],
+            "stack": "",
+            "label": {
+                "normal": {
+                    "show": false,
+                    "position": "top",
+                    "textStyle": {
+                        "color": "#000",
+                        "fontSize": 12
+                    },
+                    "formatter": null
+                },
+                "emphasis": {
+                    "show": true
+                }
+            },
+            "markPoint": {
+                "data": [
+                    {
+                        "type": "max",
+                        "name": "\u6700\u5927\u503c",
+                        "symbol": "pin",
+                        "symbolSize": 50,
+                        "label": {
+                            "normal": {
+                                "textStyle": {
+                                    "color": "#fff"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "type": "min",
+                        "name": "\u6700\u5c0f\u503c",
+                        "symbol": "pin",
+                        "symbolSize": 50,
+                        "label": {
+                            "normal": {
+                                "textStyle": {
+                                    "color": "#fff"
+                                }
+                            }
+                        }
+                    }
+                ]
+            },
+            "markLine": {
+                "data": [
+                    {
+                        "type": "average",
+                        "name": "\u5e73\u5747\u5024"
+                    }
+                ]
+            },
+            "indexflag": 328271
+        },
+        {
+            "type": "bar",
+            "name": "\u77f3\u6cb9\u6d88\u8017",
+            "data": [
+                3225.0,
+                4000.0,
+                20000.0,
+                2000.0,
+                825.0,
+                2500.0,
+                13500.0,
+                575.0,
+                345.0,
+                3020.0,
+                575.0,
+                2000.0,
+                275.0,
+                245.0,
+                82.3,
+                260.0,
+                190.0,
+                325.0,
+                100.0,
+                1600.0,
+                315.0,
+                300.0,
+                1630.0,
+                180.0,
+                5000.0,
+                835.0,
+                832.0,
+                282.0,
+                685.0,
+                525.0
+            ],
+            "stack": "",
+            "label": {
+                "normal": {
+                    "show": false,
+                    "position": "top",
+                    "textStyle": {
+                        "color": "#000",
+                        "fontSize": 12
+                    },
+                    "formatter": null
+                },
+                "emphasis": {
+                    "show": true
+                }
+            },
+            "markPoint": {
+                "data": [
+                    {
+                        "type": "max",
+                        "name": "\u6700\u5927\u503c",
+                        "symbol": "pin",
+                        "symbolSize": 50,
+                        "label": {
+                            "normal": {
+                                "textStyle": {
+                                    "color": "#fff"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "type": "min",
+                        "name": "\u6700\u5c0f\u503c",
+                        "symbol": "pin",
+                        "symbolSize": 50,
+                        "label": {
+                            "normal": {
+                                "textStyle": {
+                                    "color": "#fff"
+                                }
+                            }
+                        }
+                    }
+                ]
+            },
+            "markLine": {
+                "data": [
+                    {
+                        "type": "average",
+                        "name": "\u5e73\u5747\u5024"
+                    }
+                ]
+            },
+            "indexflag": 328271
+        },
+        {
+            "type": "bar",
+            "name": "\u77f3\u6cb9\u50a8\u5907",
+            "data": [
+                8000.0,
+                26650.0,
+                3652.0,
+                15840.0,
+                14250.0,
+                16970.0,
+                2562.0,
+                9780.0,
+                10150.0,
+                1300.0,
+                30090.0,
+                764.0,
+                3706.0,
+                3000.0,
+                827.3,
+                661.1,
+                2524.0,
+                1220.0,
+                537.3,
+                256.4,
+                4836.0,
+                200.2,
+                323.0,
+                700.0,
+                462.1,
+                360.0,
+                440.0,
+                827.3,
+                218.5,
+                440.0
+            ],
+            "stack": "",
+            "label": {
+                "normal": {
+                    "show": false,
+                    "position": "top",
+                    "textStyle": {
+                        "color": "#000",
+                        "fontSize": 12
+                    },
+                    "formatter": null
+                },
+                "emphasis": {
+                    "show": true
+                }
+            },
+            "markPoint": {
+                "data": [
+                    {
+                        "type": "max",
+                        "name": "\u6700\u5927\u503c",
+                        "symbol": "pin",
+                        "symbolSize": 50,
+                        "label": {
+                            "normal": {
+                                "textStyle": {
+                                    "color": "#fff"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "type": "min",
+                        "name": "\u6700\u5c0f\u503c",
+                        "symbol": "pin",
+                        "symbolSize": 50,
+                        "label": {
+                            "normal": {
+                                "textStyle": {
+                                    "color": "#fff"
+                                }
+                            }
+                        }
+                    }
+                ]
+            },
+            "markLine": {
+                "data": [
+                    {
+                        "type": "average",
+                        "name": "\u5e73\u5747\u5024"
+                    }
+                ]
+            },
+            "indexflag": 328271
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u77f3\u6cb9\u751f\u4ea7",
+                "\u77f3\u6cb9\u6d88\u8017",
+                "\u77f3\u6cb9\u50a8\u5907"
+            ],
+            "selectedMode": "multiple",
+            "show": true,
+            "left": "center",
+            "top": "top",
+            "orient": "horizontal"
+        }
+    ],
+    "backgroundColor": "#fff",
+    "xAxis": [
+        {
+            "name": "",
+            "nameLocation": "middle",
+            "nameGap": 25,
+            "nameTextStyle": {
+                "fontSize": 14
+            },
+            "axisLabel": {
+                "interval": "auto",
+                "rotate": 0
+            },
+            "min": null,
+            "max": null,
+            "data": [
+                "RUS",
+                "SAR",
+                "USA",
+                "IRN",
+                "IRQ",
+                "CAN",
+                "CHN",
+                "UAE",
+                "KUW",
+                "BRA",
+                "VEN",
+                "MEX",
+                "NGA",
+                "KAZ",
+                "ANG",
+                "NOR",
+                "QTR",
+                "ALG",
+                "OMA",
+                "UKD",
+                "LBY",
+                "COL",
+                "INO",
+                "AZR",
+                "IND",
+                "MLY",
+                "EGY",
+                "ECU",
+                "ARG",
+                "VTN"
+            ],
+            "type": "category"
+        }
+    ],
+    "yAxis": [
+        {
+            "name": "",
+            "nameLocation": "middle",
+            "nameGap": 25,
+            "nameTextStyle": {
+                "fontSize": 14
+            },
+            "axisLabel": {
+                "formatter": "{value} ",
+                "rotate": 0
+            },
+            "min": null,
+            "max": null,
+            "type": "value"
+        }
+    ],
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597",
+        "#f6f5ec"
+    ]
+};
+    myChart_8673cf1844654794805240d9a893b004.setOption(option_8673cf1844654794805240d9a893b004);
+</script>
+
+</body>
+
+</html>
